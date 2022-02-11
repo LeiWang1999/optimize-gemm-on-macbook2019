@@ -1,0 +1,7 @@
+/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/CMakeFiles/gemm_optimizer.dir
+/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/CMakeFiles/calc-cpu-flops.dir
+/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/CMakeFiles/rebuild_cache.dir
+/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/CMakeFiles/edit_cache.dir
+/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/CMakeFiles/fpkernel.dir

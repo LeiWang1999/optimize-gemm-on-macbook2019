@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/calc-cpu-flops.dir/calc-cpu-flops.c.o CMakeFiles/calc-cpu-flops.dir/smtl.c.o -o calc-cpu-flops  ../../lib/libfpkernel.a -lpthread 

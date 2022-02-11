@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gemm_optimizer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\tools\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gemm_optimizer">
+				<Option output="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gemm_optimizer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 gemm_optimizer"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gemm_optimizer/fast">
+				<Option output="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gemm_optimizer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 gemm_optimizer/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calc-cpu-flops">
+				<Option output="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/calc-cpu-flops" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 calc-cpu-flops"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="calc-cpu-flops/fast">
+				<Option output="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/calc-cpu-flops" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 calc-cpu-flops/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fpkernel">
+				<Option output="/Users/wanglei/Desktop/gemm-optimizer/lib/libfpkernel.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 fpkernel"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fpkernel/fast">
+				<Option output="/Users/wanglei/Desktop/gemm-optimizer/lib/libfpkernel.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 fpkernel/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/main.cpp">
+			<Option target="gemm_optimizer"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/tools/calc-cpu-flops.c">
+			<Option target="calc-cpu-flops"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/tools/cpufp_kernel_x86_avx.s">
+			<Option target="fpkernel"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/tools/cpufp_kernel_x86_avx512_vnni.s">
+			<Option target="fpkernel"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/tools/cpufp_kernel_x86_avx512f.s">
+			<Option target="fpkernel"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/tools/cpufp_kernel_x86_fma.s">
+			<Option target="fpkernel"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/tools/cpufp_kernel_x86_sse.s">
+			<Option target="fpkernel"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/tools/smtl.c">
+			<Option target="calc-cpu-flops"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/tools/smtl.h">
+			<Option target="calc-cpu-flops"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/cmake/check.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/tools/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tools\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

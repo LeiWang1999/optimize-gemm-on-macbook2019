@@ -1,0 +1,4 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/wanglei/Desktop/gemm-optimizer
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug

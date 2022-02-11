@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar cr ../../lib/libfpkernel.a CMakeFiles/fpkernel.dir/cpufp_kernel_x86_avx.s.o CMakeFiles/fpkernel.dir/cpufp_kernel_x86_avx512_vnni.s.o CMakeFiles/fpkernel.dir/cpufp_kernel_x86_avx512f.s.o CMakeFiles/fpkernel.dir/cpufp_kernel_x86_fma.s.o CMakeFiles/fpkernel.dir/cpufp_kernel_x86_sse.s.o 
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../lib/libfpkernel.a

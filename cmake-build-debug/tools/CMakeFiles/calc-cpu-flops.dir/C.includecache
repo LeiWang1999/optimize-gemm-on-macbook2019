@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wanglei/Desktop/gemm-optimizer/tools/smtl.c
+smtl.h
+/Users/wanglei/Desktop/gemm-optimizer/tools/smtl.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+pthread.h
+-
+sched.h
+-
+sys/types.h
+-
+sys/sysctl.h
+-
+mach/thread_act.h
+-
+
+/Users/wanglei/Desktop/gemm-optimizer/tools/smtl.h
+

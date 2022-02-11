@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wanglei/Desktop/gemm-optimizer/tools/cpufp_kernel_x86_avx512_vnni.s
+
+/Users/wanglei/Desktop/gemm-optimizer/tools/cpufp_kernel_x86_avx512f.s
+
+/Users/wanglei/Desktop/gemm-optimizer/tools/cpufp_kernel_x86_fma.s
+
+/Users/wanglei/Desktop/gemm-optimizer/tools/cpufp_kernel_x86_sse.s
+
