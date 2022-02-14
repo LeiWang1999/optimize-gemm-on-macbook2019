@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../lib/libgallery_utils.a CMakeFiles/gallery_utils.dir/include/compare_matrices.c.o CMakeFiles/gallery_utils.dir/include/copy_matrix.c.o CMakeFiles/gallery_utils.dir/include/dclock.c.o CMakeFiles/gallery_utils.dir/include/my_mmult.c.o CMakeFiles/gallery_utils.dir/include/random_matrix.c.o CMakeFiles/gallery_utils.dir/include/ref_mmult.c.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../lib/libgallery_utils.a

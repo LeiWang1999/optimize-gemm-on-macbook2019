@@ -5,3 +5,7 @@
 /Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/CMakeFiles/rebuild_cache.dir
 /Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/CMakeFiles/edit_cache.dir
 /Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/CMakeFiles/fpkernel.dir
+/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/CMakeFiles/rebuild_cache.dir
+/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/CMakeFiles/edit_cache.dir
+/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/CMakeFiles/0.baseline.dir
+/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/CMakeFiles/gallery_utils.dir

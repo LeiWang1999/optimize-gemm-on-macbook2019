@@ -11,9 +11,9 @@ cpufp_kernel_x86.h
 /Users/wanglei/Desktop/gemm-optimizer/tools/cpufp_kernel_x86.h
 smtl.h
 /Users/wanglei/Desktop/gemm-optimizer/tools/smtl.h
-stdlib.h
--
 stdio.h
+-
+stdlib.h
 -
 string.h
 -

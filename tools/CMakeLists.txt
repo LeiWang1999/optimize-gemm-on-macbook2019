@@ -6,7 +6,7 @@ endif()
 file(GLOB LIB_SOURCE "${CMAKE_CURRENT_LIST_DIR}/cpufp_kernel_*.s")
 
 add_library(fpkernel ${LIB_SOURCE})
-
+find_package(Threads)
 add_executable(calc-cpu-flops calc-cpu-flops.c smtl.c)
 link_libraries(${CMAKE_CURRENT_LIST_DIR})
-target_link_libraries(calc-cpu-flops fpkernel pthread)
+target_link_libraries(calc-cpu-flops fpkernel ${CMAKE_THREAD_LIBS_INIT})

@@ -1,0 +1,6 @@
+#ifndef GEMM_OPTIMIZER_DCLOCK_H
+#define GEMM_OPTIMIZER_DCLOCK_H
+
+double dclock();
+
+#endif//GEMM_OPTIMIZER_DCLOCK_H

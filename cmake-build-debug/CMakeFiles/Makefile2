@@ -74,19 +74,42 @@ CMAKE_BINARY_DIR = /Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/gemm_optimizer.dir/all
 all: tools/all
+all: gallery/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: tools/preinstall
+preinstall: gallery/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/gemm_optimizer.dir/clean
 clean: tools/clean
+clean: gallery/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory gallery
+
+# Recursive "all" directory target.
+gallery/all: gallery/CMakeFiles/0.baseline.dir/all
+gallery/all: gallery/CMakeFiles/gallery_utils.dir/all
+
+.PHONY : gallery/all
+
+# Recursive "preinstall" directory target.
+gallery/preinstall:
+
+.PHONY : gallery/preinstall
+
+# Recursive "clean" directory target.
+gallery/clean: gallery/CMakeFiles/0.baseline.dir/clean
+gallery/clean: gallery/CMakeFiles/gallery_utils.dir/clean
+
+.PHONY : gallery/clean
 
 #=============================================================================
 # Directory level rules for directory tools
@@ -115,7 +138,7 @@ tools/clean: tools/CMakeFiles/fpkernel.dir/clean
 CMakeFiles/gemm_optimizer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gemm_optimizer.dir/build.make CMakeFiles/gemm_optimizer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gemm_optimizer.dir/build.make CMakeFiles/gemm_optimizer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target gemm_optimizer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target gemm_optimizer"
 .PHONY : CMakeFiles/gemm_optimizer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -142,7 +165,7 @@ CMakeFiles/gemm_optimizer.dir/clean:
 tools/CMakeFiles/calc-cpu-flops.dir/all: tools/CMakeFiles/fpkernel.dir/all
 	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/calc-cpu-flops.dir/build.make tools/CMakeFiles/calc-cpu-flops.dir/depend
 	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/calc-cpu-flops.dir/build.make tools/CMakeFiles/calc-cpu-flops.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target calc-cpu-flops"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/CMakeFiles --progress-num=3,4,5 "Built target calc-cpu-flops"
 .PHONY : tools/CMakeFiles/calc-cpu-flops.dir/all
 
 # Build rule for subdir invocation for target.
@@ -169,7 +192,7 @@ tools/CMakeFiles/calc-cpu-flops.dir/clean:
 tools/CMakeFiles/fpkernel.dir/all:
 	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/fpkernel.dir/build.make tools/CMakeFiles/fpkernel.dir/depend
 	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/fpkernel.dir/build.make tools/CMakeFiles/fpkernel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/CMakeFiles --progress-num=4,5,6,7,8,9 "Built target fpkernel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/CMakeFiles --progress-num=6,7,8,9,10,11 "Built target fpkernel"
 .PHONY : tools/CMakeFiles/fpkernel.dir/all
 
 # Build rule for subdir invocation for target.
@@ -188,6 +211,60 @@ fpkernel: tools/CMakeFiles/fpkernel.dir/rule
 tools/CMakeFiles/fpkernel.dir/clean:
 	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/fpkernel.dir/build.make tools/CMakeFiles/fpkernel.dir/clean
 .PHONY : tools/CMakeFiles/fpkernel.dir/clean
+
+#=============================================================================
+# Target rules for target gallery/CMakeFiles/0.baseline.dir
+
+# All Build rule for target.
+gallery/CMakeFiles/0.baseline.dir/all: gallery/CMakeFiles/gallery_utils.dir/all
+	$(MAKE) $(MAKESILENT) -f gallery/CMakeFiles/0.baseline.dir/build.make gallery/CMakeFiles/0.baseline.dir/depend
+	$(MAKE) $(MAKESILENT) -f gallery/CMakeFiles/0.baseline.dir/build.make gallery/CMakeFiles/0.baseline.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target 0.baseline"
+.PHONY : gallery/CMakeFiles/0.baseline.dir/all
+
+# Build rule for subdir invocation for target.
+gallery/CMakeFiles/0.baseline.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/CMakeFiles 9
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gallery/CMakeFiles/0.baseline.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/CMakeFiles 0
+.PHONY : gallery/CMakeFiles/0.baseline.dir/rule
+
+# Convenience name for target.
+0.baseline: gallery/CMakeFiles/0.baseline.dir/rule
+
+.PHONY : 0.baseline
+
+# clean rule for target.
+gallery/CMakeFiles/0.baseline.dir/clean:
+	$(MAKE) $(MAKESILENT) -f gallery/CMakeFiles/0.baseline.dir/build.make gallery/CMakeFiles/0.baseline.dir/clean
+.PHONY : gallery/CMakeFiles/0.baseline.dir/clean
+
+#=============================================================================
+# Target rules for target gallery/CMakeFiles/gallery_utils.dir
+
+# All Build rule for target.
+gallery/CMakeFiles/gallery_utils.dir/all:
+	$(MAKE) $(MAKESILENT) -f gallery/CMakeFiles/gallery_utils.dir/build.make gallery/CMakeFiles/gallery_utils.dir/depend
+	$(MAKE) $(MAKESILENT) -f gallery/CMakeFiles/gallery_utils.dir/build.make gallery/CMakeFiles/gallery_utils.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/CMakeFiles --progress-num=12,13,14,15,16,17,18 "Built target gallery_utils"
+.PHONY : gallery/CMakeFiles/gallery_utils.dir/all
+
+# Build rule for subdir invocation for target.
+gallery/CMakeFiles/gallery_utils.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gallery/CMakeFiles/gallery_utils.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/CMakeFiles 0
+.PHONY : gallery/CMakeFiles/gallery_utils.dir/rule
+
+# Convenience name for target.
+gallery_utils: gallery/CMakeFiles/gallery_utils.dir/rule
+
+.PHONY : gallery_utils
+
+# clean rule for target.
+gallery/CMakeFiles/gallery_utils.dir/clean:
+	$(MAKE) $(MAKESILENT) -f gallery/CMakeFiles/gallery_utils.dir/build.make gallery/CMakeFiles/gallery_utils.dir/clean
+.PHONY : gallery/CMakeFiles/gallery_utils.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

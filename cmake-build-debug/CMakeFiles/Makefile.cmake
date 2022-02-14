@@ -23,13 +23,18 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CheckCSourceCompiles.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CheckCXXCompilerFlag.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CheckCXXSourceCompiles.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CheckIncludeFile.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CheckLanguage.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CheckLibraryExists.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Compiler/AppleClang-C.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Compiler/AppleClang-CXX.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Compiler/Clang-ASM.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Compiler/Clang.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Compiler/GNU.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/FindPackageMessage.cmake"
+  "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/FindThreads.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Internal/CheckCompilerFlag.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Internal/CheckSourceCompiles.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Platform/Apple-AppleClang-C.cmake"
@@ -48,6 +53,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.19.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.19.2/CMakeSystem.cmake"
   "../cmake/check.cmake"
+  "../gallery/CMakeLists.txt"
   "../tools/CMakeLists.txt"
   )
 
@@ -61,6 +67,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "tools/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "gallery/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -68,4 +75,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/gemm_optimizer.dir/DependInfo.cmake"
   "tools/CMakeFiles/calc-cpu-flops.dir/DependInfo.cmake"
   "tools/CMakeFiles/fpkernel.dir/DependInfo.cmake"
+  "gallery/CMakeFiles/0.baseline.dir/DependInfo.cmake"
+  "gallery/CMakeFiles/gallery_utils.dir/DependInfo.cmake"
   )

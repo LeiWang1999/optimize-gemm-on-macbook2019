@@ -5,7 +5,7 @@
 		<Option title="gemm_optimizer"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\tools\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\tools\;CMake Files\gallery\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug"/>
@@ -163,7 +163,134 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/tools/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="0.baseline">
+				<Option output="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/0.baseline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wanglei/Desktop/gemm-optimizer/gallery/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/Makefile&quot;  VERBOSE=1 0.baseline"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="0.baseline/fast">
+				<Option output="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/0.baseline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wanglei/Desktop/gemm-optimizer/gallery/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/Makefile&quot;  VERBOSE=1 0.baseline/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gallery_utils">
+				<Option output="/Users/wanglei/Desktop/gemm-optimizer/lib/libgallery_utils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wanglei/Desktop/gemm-optimizer/gallery/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/Makefile&quot;  VERBOSE=1 gallery_utils"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gallery_utils/fast">
+				<Option output="/Users/wanglei/Desktop/gemm-optimizer/lib/libgallery_utils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/wanglei/Desktop/gemm-optimizer/gallery/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/Makefile&quot;  VERBOSE=1 gallery_utils/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wanglei/Desktop/gemm-optimizer/cmake-build-debug/gallery/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/gallery/0.baseline.c">
+			<Option target="0.baseline"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/gallery/include/compare_matrices.c">
+			<Option target="gallery_utils"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/gallery/include/compare_matrices.h">
+			<Option target="gallery_utils"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/gallery/include/copy_matrix.c">
+			<Option target="gallery_utils"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/gallery/include/copy_matrix.h">
+			<Option target="gallery_utils"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/gallery/include/dclock.c">
+			<Option target="gallery_utils"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/gallery/include/dclock.h">
+			<Option target="gallery_utils"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/gallery/include/my_mmult.c">
+			<Option target="gallery_utils"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/gallery/include/my_mmult.h">
+			<Option target="gallery_utils"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/gallery/include/random_matrix.c">
+			<Option target="gallery_utils"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/gallery/include/random_matrix.h">
+			<Option target="gallery_utils"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/gallery/include/ref_mmult.c">
+			<Option target="gallery_utils"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/gallery/include/ref_mmult.h">
+			<Option target="gallery_utils"/>
+		</Unit>
 		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/main.cpp">
 			<Option target="gemm_optimizer"/>
 		</Unit>
@@ -199,6 +326,9 @@
 		</Unit>
 		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/tools/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\tools\"/>
+		</Unit>
+		<Unit filename="/Users/wanglei/Desktop/gemm-optimizer/gallery/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gallery\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

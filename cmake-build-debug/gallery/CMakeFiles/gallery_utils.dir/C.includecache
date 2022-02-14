@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/wanglei/Desktop/gemm-optimizer/gallery/include/compare_matrices.c
+compare_matrices.h
+/Users/wanglei/Desktop/gemm-optimizer/gallery/include/compare_matrices.h
+
+/Users/wanglei/Desktop/gemm-optimizer/gallery/include/compare_matrices.h
+
+/Users/wanglei/Desktop/gemm-optimizer/gallery/include/copy_matrix.c
+copy_matrix.h
+/Users/wanglei/Desktop/gemm-optimizer/gallery/include/copy_matrix.h
+
+/Users/wanglei/Desktop/gemm-optimizer/gallery/include/copy_matrix.h
+
+/Users/wanglei/Desktop/gemm-optimizer/gallery/include/dclock.c
+dclock.h
+/Users/wanglei/Desktop/gemm-optimizer/gallery/include/dclock.h
+sys/time.h
+-
+time.h
+-
+
+/Users/wanglei/Desktop/gemm-optimizer/gallery/include/dclock.h
+
+/Users/wanglei/Desktop/gemm-optimizer/gallery/include/my_mmult.c
+my_mmult.h
+/Users/wanglei/Desktop/gemm-optimizer/gallery/include/my_mmult.h
+
+/Users/wanglei/Desktop/gemm-optimizer/gallery/include/my_mmult.h
+
+/Users/wanglei/Desktop/gemm-optimizer/gallery/include/ref_mmult.c
+ref_mmult.h
+/Users/wanglei/Desktop/gemm-optimizer/gallery/include/ref_mmult.h
+
+/Users/wanglei/Desktop/gemm-optimizer/gallery/include/ref_mmult.h
+

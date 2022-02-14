@@ -168,6 +168,32 @@ fpkernel/fast:
 	$(MAKE) $(MAKESILENT) -f tools/CMakeFiles/fpkernel.dir/build.make tools/CMakeFiles/fpkernel.dir/build
 .PHONY : fpkernel/fast
 
+#=============================================================================
+# Target rules for targets named 0.baseline
+
+# Build rule for target.
+0.baseline: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 0.baseline
+.PHONY : 0.baseline
+
+# fast build rule for target.
+0.baseline/fast:
+	$(MAKE) $(MAKESILENT) -f gallery/CMakeFiles/0.baseline.dir/build.make gallery/CMakeFiles/0.baseline.dir/build
+.PHONY : 0.baseline/fast
+
+#=============================================================================
+# Target rules for targets named gallery_utils
+
+# Build rule for target.
+gallery_utils: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gallery_utils
+.PHONY : gallery_utils
+
+# fast build rule for target.
+gallery_utils/fast:
+	$(MAKE) $(MAKESILENT) -f gallery/CMakeFiles/gallery_utils.dir/build.make gallery/CMakeFiles/gallery_utils.dir/build
+.PHONY : gallery_utils/fast
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -203,8 +229,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... 0.baseline"
 	@echo "... calc-cpu-flops"
 	@echo "... fpkernel"
+	@echo "... gallery_utils"
 	@echo "... gemm_optimizer"
 	@echo "... main.o"
 	@echo "... main.i"
