@@ -1,0 +1,15 @@
+build
+
+lib/*
+
+cmake-build-debug
+
+data/*
+
+.vscode
+
+.idea
+
+**/.DS_Store
+
+!.gitkeep

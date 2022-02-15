@@ -16,7 +16,13 @@ option(ARCH_X86_AVX     "Build AVX2 for x86"        ON)
 include("${CMAKE_CURRENT_SOURCE_DIR}/cmake/check.cmake")
 
 add_subdirectory(tools)
-
 add_subdirectory(gallery)
+add_subdirectory(utils)
 
-add_executable(gemm_optimizer main.cpp)
+include_directories(${PROJECT_SOURCE_DIR}/gallery)
+
+include_directories(${PROJECT_SOURCE_DIR}/utils)
+
+add_executable(gemm_optimizer main.c)
+
+target_link_libraries(gemm_optimizer gallery_utils gallary_major)
