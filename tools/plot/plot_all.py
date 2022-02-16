@@ -20,7 +20,7 @@ class PlotFile(object):
         f = open(filename)
         sizes = [40]
         times = [0.0]
-        title = filename.split('.')[0]
+        title = filename.split('.')[0].split('/')[-1]
         while True:
             line = f.readline()
             if line:
@@ -41,7 +41,7 @@ class BenchMark(object):
         eat a path and get a
     '''
 
-    def __init__(self, path='*.txt'):
+    def __init__(self, path='log/*.txt'):
         _fileList = glob.glob(path)
         self._plotFileList = []
 
@@ -56,7 +56,7 @@ class BenchMark(object):
             plt.plot(_plotFile.getSizes(), _plotFile.getTimes(), label=_plotFile.getTitle())
 
         plt.legend()
-        plt.savefig('benmark.png')
+        plt.savefig('benchmark.png')
         plt.show()
 
 if __name__ == '__main__':

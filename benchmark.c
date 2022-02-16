@@ -10,6 +10,10 @@
 
 #include "baseline.h"
 #include "loopunroll.h"
+#include "register.h"
+#include "simdSSE.h"
+#include "innerkernel.h"
+#include "arrayPack.h"
 
 int main(int argc, char *argv[]) {
     int
@@ -77,6 +81,21 @@ int main(int argc, char *argv[]) {
                     break;
                 case 1:
                     mMultLoopUnroll1x4(m, n, k, a, lda, b, ldb, c, ldc);
+                    break;
+                case 2:
+                    mMultRegister1x4(m, n, k, a, lda, b, ldb, c, ldc);
+                    break;
+                case 3:
+                    mMultLoopUnroll4x4(m, n, k, a, lda, b, ldb, c, ldc);
+                    break;
+                case 4:
+                    mMultSIMDSSE4x4(m, n, k, a, lda, b, ldb, c, ldc);
+                    break;
+                case 5:
+                    mMultInnerKernel(m, n, k, a, lda, b, ldb, c, ldc);
+                    break;
+                case 6:
+                    mMultArrayPack4x4(m, n, k, a, lda, b, ldb, c, ldc);
                     break;
                 default:
                     break;
